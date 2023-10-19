@@ -1,6 +1,13 @@
-let num = 7;
-let sum = 0;
+let num = 5;
+let count = 0;
 for(let i=1;i<=num;i++){
-  sum = sum +i
+  if(num%i == 0){
+    count++;
+  }
 }
-console.log(sum);
+if(count == 2){
+  console.log("Prime No is");
+}
+else{
+    console.log("Not a Prime No is");
+}
