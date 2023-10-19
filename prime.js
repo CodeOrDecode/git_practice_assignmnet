@@ -9,5 +9,5 @@ if(count == 2){
   console.log("Prime");
 }
 else{
-    console.log("No Prime");
+    console.log("Not Prime");
 }
